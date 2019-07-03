@@ -14,6 +14,10 @@
 		D4BC64A9207CD1A500D60EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BC64A7207CD1A500D60EFA /* LaunchScreen.storyboard */; };
 		D4BC64B4207CD1A500D60EFA /* TestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC64B3207CD1A500D60EFA /* TestTaskTests.swift */; };
 		D4BC64BF207CD1A500D60EFA /* TestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC64BE207CD1A500D60EFA /* TestTaskUITests.swift */; };
+		D4BC64CD207CD24800D60EFA /* MainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC64CC207CD24800D60EFA /* MainTable.swift */; };
+		D4BC64D7207CD67D00D60EFA /* secondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC64D6207CD67D00D60EFA /* secondController.swift */; };
+		D4BC64D9207CE52800D60EFA /* thirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC64D8207CE52800D60EFA /* thirdVC.swift */; };
+		D4BC64DB207CE55900D60EFA /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC64DA207CE55900D60EFA /* FourthVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D4BC64BA207CD1A500D60EFA /* TestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BC64BE207CD1A500D60EFA /* TestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskUITests.swift; sourceTree = "<group>"; };
 		D4BC64C0207CD1A500D60EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BC64CC207CD24800D60EFA /* MainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTable.swift; sourceTree = "<group>"; };
+		D4BC64D6207CD67D00D60EFA /* secondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondController.swift; sourceTree = "<group>"; };
+		D4BC64D8207CE52800D60EFA /* thirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdVC.swift; sourceTree = "<group>"; };
+		D4BC64DA207CE55900D60EFA /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				D4BC64A5207CD1A500D60EFA /* Assets.xcassets */,
 				D4BC64A7207CD1A500D60EFA /* LaunchScreen.storyboard */,
 				D4BC64AA207CD1A500D60EFA /* Info.plist */,
+				D4BC64CC207CD24800D60EFA /* MainTable.swift */,
+				D4BC64D6207CD67D00D60EFA /* secondController.swift */,
+				D4BC64D8207CE52800D60EFA /* thirdVC.swift */,
+				D4BC64DA207CE55900D60EFA /* FourthVC.swift */,
 			);
 			path = TestTask;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BC64DB207CE55900D60EFA /* FourthVC.swift in Sources */,
+				D4BC64D9207CE52800D60EFA /* thirdVC.swift in Sources */,
 				D4BC64A1207CD1A500D60EFA /* ViewController.swift in Sources */,
+				D4BC64D7207CD67D00D60EFA /* secondController.swift in Sources */,
 				D4BC649F207CD1A500D60EFA /* AppDelegate.swift in Sources */,
+				D4BC64CD207CD24800D60EFA /* MainTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
